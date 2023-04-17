@@ -1,4 +1,5 @@
-﻿internal class Program
+﻿using static ten_leetcode_problems.ValidParantheses;
+internal class Program
 {
     private static void Main(string[] args)
     {
