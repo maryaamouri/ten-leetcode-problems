@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace ten_leetcode_problems
 {
     internal class TreeNode
-    {
-        internal class TreeNode
-        {
+ {
+       
 
             public int val;
             public TreeNode left;
