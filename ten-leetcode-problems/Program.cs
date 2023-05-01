@@ -1,7 +1,18 @@
-﻿internal class Program
+﻿using ten_leetcode_problems;
+using static ten_leetcode_problems.BinaryTreeAllPaths;
+internal class Program
 {
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, C#!");
+        // Question5
+        Console.WriteLine("Question #5:");
+        Console.WriteLine("All possible paths are");
+        TreeNode root = CreateSampleTreeNode();
+        IList<string> paths = GetBinaryTreePths(root);
+        foreach (string path in paths)
+        {
+            Console.WriteLine(path);
+        }
     }
 }
