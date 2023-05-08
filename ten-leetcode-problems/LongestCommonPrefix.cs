@@ -13,7 +13,7 @@ namespace ten_leetcode_problems
             string prefix = strs[0];
             foreach (string str in strs)
             {
-                while ((prefix.Length > 0) && str.StartsWith(prefix) == false)
+                while ((prefix.Length > 0) && !str.StartsWith(prefix))
                 {
 
                     prefix = prefix.Remove(prefix.Length - 1);
