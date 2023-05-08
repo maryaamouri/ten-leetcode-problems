@@ -8,9 +8,9 @@ internal class Program
         // Q1
 
         Console.WriteLine("Question #1:");
-        int[] nums = { 1, 2, 3, 1 };
-        int k = 3;
-        bool containsDoublicated = GetContainsNearbyDuplicate(nums, k);
+        var[] nums = { 1, 2, 3, 1 };
+        var k = 3;
+        var containsDoublicated = GetContainsNearbyDuplicate(nums, k);
         Console.WriteLine($"Do the array  {string.Join(" , ", nums)} contains doublicated nymbers on k = {k} near indeces?");
         Console.WriteLine(containsDoublicated);
 
