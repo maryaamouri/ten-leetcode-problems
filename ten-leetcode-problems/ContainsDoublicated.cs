@@ -10,13 +10,15 @@ namespace ten_leetcode_problems
     {
         public static bool GetContainsNearbyDuplicate(int[] nums, int k)
         {
-            for (int i = 0; i < nums.Length - 1; i++)
-                for (int j = i + 1; j < nums.Length & j <= i + k; j++)
-                {
-                    if (nums[i] == nums[j])
-                        return true;
+            HashSet<int> set = new HashSet<int>();
+            for (int i = 0; i < nums.Length ; i++)
+            {
+                if(i>k)
+                    set.Remove(nums[i-k-1]);
+               if (!set.Add(nums[i]))
+                    return true;
 
-                }
+            }
             return false;
         }
     }
