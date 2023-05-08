@@ -5,7 +5,7 @@ internal class Program
     {
         Console.WriteLine("Hello, C#!");
         string[] strs = { "flower", "flow", "flight" };
-        //string[] strs = { "dog", "racecar", "car" };
+        
         String longestCommon = GetLongestCommonPrefix(strs);
         Console.WriteLine("Question #2");
         Console.WriteLine($"Get the Longest Common Prefix between {string.Join(" , ", strs)} ");
