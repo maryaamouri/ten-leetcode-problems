@@ -4,9 +4,9 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, C#!");
-        string[] strs = { "flower", "flow", "flight" };
+        var[] strs = { "flower", "flow", "flight" };
         
-        String longestCommon = GetLongestCommonPrefix(strs);
+        var longestCommon = GetLongestCommonPrefix(strs);
         Console.WriteLine("Question #2");
         Console.WriteLine($"Get the Longest Common Prefix between {string.Join(" , ", strs)} ");
         if (longestCommon.Length > 0)

@@ -17,7 +17,7 @@ namespace ten_leetcode_problems
                 {
 
                     prefix = prefix.Remove(prefix.Length - 1);
-                    // Console.WriteLine(str);
+                   
                 }
 
             }
