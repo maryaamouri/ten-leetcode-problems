@@ -29,9 +29,7 @@ namespace ten_leetcode_problems
             }
 
 
-            if (stack.Count > 0)
-                return false;
-            return true;
+            return (stack.Count == 0);
 
         }
     }
