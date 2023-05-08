@@ -5,9 +5,9 @@ internal class Program
     {
         Console.WriteLine("Hello, C#!");
         // Q3
-        string s = "abccccdd";
+        var s = "abccccdd";
         Console.WriteLine("Question #3:");
-        int longestPalendrome = GetLongestPalindrome(s);
+        var longestPalendrome = GetLongestPalindrome(s);
         Console.WriteLine($"The Longest Palendron String that can be generated from {s} is {longestPalendrome}");
 
     }
