@@ -11,7 +11,7 @@ namespace ten_leetcode_problems
         internal static string[] FindFizzBuzz(int n)
         {
 
-            string[] result = new string[n];
+            var result = new string[n];
             for (int index = 0, i = 1; index < n; i++, index++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
