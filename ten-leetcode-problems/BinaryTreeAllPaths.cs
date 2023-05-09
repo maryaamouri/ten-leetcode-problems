@@ -37,7 +37,7 @@ namespace ten_leetcode_problems
         }
         static void CreatePathsUsingDFS(TreeNode root, string currentPath, IList<string> paths)
         {
-            currentPath = currentPath + "->" + root.val;
+            currentPath = $"{currentPath}->{root.val}";
             if (root.left == null && root.right == null)
             {
                 paths.Add(currentPath);
