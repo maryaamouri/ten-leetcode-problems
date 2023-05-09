@@ -10,7 +10,7 @@ namespace ten_leetcode_problems
     {
         internal static IList<string> GetBinaryTreePths(TreeNode root)
         {
-            IList<string> paths = new List<string>();
+            var paths = new List<string>();
             string currentPath = root.val.ToString();
             if (root.left == null && root.right == null)
             {

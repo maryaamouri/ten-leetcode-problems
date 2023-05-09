@@ -9,7 +9,7 @@ internal class Program
         // Question5
         Console.WriteLine("Question #5:");
         Console.WriteLine("All possible paths are");
-        TreeNode root = CreateSampleTreeNode();
+        var root = CreateSampleTreeNode();
         IList<string> paths = GetBinaryTreePths(root);
         foreach (string path in paths)
         {
