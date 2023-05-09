@@ -8,8 +8,6 @@ namespace ten_leetcode_problems
 {
     internal static class BinaryTreeAllPaths
     {
-        
-
         internal static IList<string> GetBinaryTreePths(TreeNode root)
         {
             IList<string> paths = new List<string>();

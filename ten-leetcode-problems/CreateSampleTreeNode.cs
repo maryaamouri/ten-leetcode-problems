@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class CreateSampleTree
+public class CreateSampleTreeNode
 {
     static internal TreeNode CreateSampleTreeNode()
     {
