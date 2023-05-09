@@ -10,7 +10,7 @@ namespace ten_leetcode_problems
     {
         static internal void Reverse(char[] s)
         {
-            Stack<char> stack = new();
+            var stack = new();
             for (int i = 0; i < s.Length; i++)
                 stack.Push(s[i]);
 
