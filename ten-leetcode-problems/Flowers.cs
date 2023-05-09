@@ -6,7 +6,7 @@
         if (n == 0)
             return true;
 
-        for (int i = 0; i < flowerbed.Length; i++)
+        for (var i = 0; i < flowerbed.Length; i++)
         {
 
             if (flowerbed[i] == 0) // if the current place is empty 
