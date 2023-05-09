@@ -10,11 +10,11 @@ namespace ten_leetcode_problems
     {
         internal static int[] Find(int[] nums)
         {
-            int[] result = new int[2];
+            var result = new int[2];
             Array.Sort(nums);
-            int sumi = 0;
-            int sumj = 0;
-            for (int i = 0, j = 1; i < nums.Length; i++, j++)
+            var sumi = 0;
+            var sumj = 0;
+            for (var i = 0, j = 1; i < nums.Length; i++, j++)
             {
 
 
