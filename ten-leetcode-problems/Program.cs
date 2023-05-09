@@ -1,5 +1,6 @@
 ﻿using ten_leetcode_problems;
 using static ten_leetcode_problems.BinaryTreeAllPaths;
+using static ten_leetcode_problems.CreateSampleTreeNode;
 internal class Program
 {
     private static void Main(string[] args)
